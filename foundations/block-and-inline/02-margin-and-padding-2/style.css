@@ -23,10 +23,12 @@ body {
   background: #e3f4ff;
   display: block;
   margin: 10px auto;
+  text-align: center;
 }
 
 button {
   background: white;
   display: block;
   border: 1px solid #eee;
+  margin: auto;
 }
