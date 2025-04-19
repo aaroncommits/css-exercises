@@ -5,6 +5,15 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.content {
+  display: flex;
+
 }
 
 .title {
@@ -24,3 +33,13 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+
