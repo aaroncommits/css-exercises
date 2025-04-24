@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -35,39 +37,52 @@ ul {
   list-style-type: none; 
 }
 
+.blank-space1 {
+  display: flex;
+  flex-grow: 2;
+}
+
+.blank-space2 {
+  display: flex;
+  flex-grow: 5;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  flex-wrap: nowrap;
+  padding: 10px;
+  background: #eeeeee;
+}
+
+.header {
+  padding: 10px;
 }
 
 .bottom-links {
   display: flex;
-  background: #cdcdcd;
+  margin: 0px;
 }
 
 .bottom-links > .right-links {
   display: flex;
   justify-content: flex-end;
   flex: 1;
-  padding: 0;
+  padding: 10px 0px;
   gap: 10px; 
-  margin-right: 10px;
+  margin: 0px;
 }
 
 .bottom-links > .left-links {
   display: flex;
   justify-content: flex-start;
   flex: 1;
-  padding: 0;
+  padding: 10px 0px;
   gap: 10px;
-  margin-left: 10px;
+  margin: 0px;
 }
 
 .top-links {
   display: flex;
-
 }
 
 .top-links > .right-links {
@@ -76,7 +91,6 @@ ul {
   flex: 1;
   padding: 0;
   gap: 10px; 
-  margin-right: 10px;
 }
 
 .top-links > .left-links {
@@ -85,7 +99,6 @@ ul {
   flex: 1;
   padding: 0;
   gap: 10px;
-  margin-left: 10px;
 }
 
 .buttons {
