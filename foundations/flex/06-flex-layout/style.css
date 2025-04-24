@@ -16,11 +16,93 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
-  width: 400px;
+  width: 400px; 
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.bottom-links {
+  display: flex;
+  background: #cdcdcd;
+}
+
+.bottom-links > .right-links {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  padding: 0;
+  gap: 10px; 
+  margin-right: 10px;
+}
+
+.bottom-links > .left-links {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  padding: 0;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.top-links {
+  display: flex;
+
+}
+
+.top-links > .right-links {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  padding: 0;
+  gap: 10px; 
+  margin-right: 10px;
+}
+
+.top-links > .left-links {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  padding: 0;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+div.input{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
 }
